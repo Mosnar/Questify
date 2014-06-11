@@ -14,9 +14,10 @@ return new \Phalcon\Config(array(
         'viewsDir'       => __DIR__ . '/../../app/views/',
         'pluginsDir'     => __DIR__ . '/../../app/plugins/',
         'libraryDir'     => __DIR__ . '/../../app/library/',
+        'servicesDir'     => __DIR__ . '/../../app/services/',
         'cacheDir'       => __DIR__ . '/../../app/cache/',
         'formsDir'       => __DIR__ . '/../../app/forms/',
-        'baseUri'        => '/',
+        'baseUri'        => '/quest',
     ),
     'facebook' => array(
         'appId'     => '',
