@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class Orders extends \Phalcon\Mvc\Model
 {
 

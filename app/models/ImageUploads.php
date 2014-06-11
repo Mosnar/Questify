@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class ImageUploads extends \Phalcon\Mvc\Model
 {
 

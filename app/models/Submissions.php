@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class Submissions extends \Phalcon\Mvc\Model
 {
 

@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class Quests extends \Phalcon\Mvc\Model
 {
 

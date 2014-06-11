@@ -1,11 +1,7 @@
 <?php
 
-
-
-
 class Users extends \Phalcon\Mvc\Model
 {
-
     /**
      *
      * @var integer
@@ -17,12 +13,6 @@ class Users extends \Phalcon\Mvc\Model
      * @var integer
      */
     public $facebook_id;
-     
-    /**
-     *
-     * @var integer
-     */
-    public $account_type;
 
     /**
      *
@@ -46,18 +36,11 @@ class Users extends \Phalcon\Mvc\Model
      *
      * @var integer
      */
-    public $points_retro;
+    public $points_total;
 
     /**
      *
      * @var integer
      */
     public $company_id;
-
-
-    /**
-     * @var string
-     */
-    public $password;
-
 }

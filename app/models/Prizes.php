@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class Prizes extends \Phalcon\Mvc\Model
 {
 

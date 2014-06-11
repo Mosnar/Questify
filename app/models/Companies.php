@@ -1,8 +1,5 @@
 <?php
 
-
-
-
 class Companies extends \Phalcon\Mvc\Model
 {
 
@@ -11,19 +8,19 @@ class Companies extends \Phalcon\Mvc\Model
      * @var integer
      */
     public $id;
-     
+
     /**
      *
      * @var integer
      */
     public $datetime;
-     
+
     /**
      *
      * @var string
      */
     public $name;
-     
+
     /**
      *
      * @var string
