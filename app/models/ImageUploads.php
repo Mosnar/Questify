@@ -35,19 +35,5 @@ class ImageUploads extends \Phalcon\Mvc\Model
      * @var string
      */
     public $original_file_name;
-     
-    /**
-     * Independent Column Mapping.
-     */
-    public function columnMap()
-    {
-        return array(
-            'id' => 'id', 
-            'file_size' => 'file_size', 
-            'user_id' => 'user_id', 
-            'file_name' => 'file_name', 
-            'original_file_name' => 'original_file_name'
-        );
-    }
 
 }

@@ -43,20 +43,5 @@ class Submissions extends \Phalcon\Mvc\Model
     public $datetime;
 
     public $body;
-    /**
-     * Independent Column Mapping.
-     */
-    public function columnMap()
-    {
-        return array(
-            'id' => 'id', 
-            'quest_id' => 'quest_id', 
-            'user_id' => 'user_id', 
-            'image_id' => 'image_id', 
-            'approved' => 'approved', 
-            'datetime' => 'datetime',
-            'body' => 'body'
-        );
-    }
 
 }

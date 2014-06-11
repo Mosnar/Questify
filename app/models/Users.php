@@ -60,22 +60,4 @@ class Users extends \Phalcon\Mvc\Model
      */
     public $password;
 
-    /**
-     * Independent Column Mapping.
-     */
-    public function columnMap()
-    {
-        return array(
-            'id' => 'id', 
-            'facebook_id' => 'facebook_id', 
-            'account_type' => 'account_type', 
-            'ip' => 'ip',
-            'email' => 'email',
-            'points_balance' => 'points_balance',
-            'company_id' => 'company_id',
-            'password' => 'password',
-            'points_retro' => 'points_retro'
-        );
-    }
-
 }

@@ -31,18 +31,5 @@ class Orders extends \Phalcon\Mvc\Model
     public $prize_id;
 
     public $company_id;
-    /**
-     * Independent Column Mapping.
-     */
-    public function columnMap()
-    {
-        return array(
-            'id' => 'id', 
-            'datetime' => 'datetime', 
-            'user_id' => 'user_id', 
-            'prize_id' => 'prize_id',
-            'company_id' => 'company_id'
-        );
-    }
 
 }

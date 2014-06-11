@@ -31,18 +31,4 @@ class Prizes extends \Phalcon\Mvc\Model
     public $points;
 
     public $company_id;
-    /**
-     * Independent Column Mapping.
-     */
-    public function columnMap()
-    {
-        return array(
-            'id' => 'id', 
-            'description' => 'description', 
-            'image_id' => 'image_id', 
-            'points' => 'points',
-            'company_id' => 'company_id'
-        );
-    }
-
 }

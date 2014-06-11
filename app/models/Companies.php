@@ -41,19 +41,4 @@ class Companies extends \Phalcon\Mvc\Model
      */
     public $user_id;
 
-    /**
-     * Independent Column Mapping.
-     */
-    public function columnMap()
-    {
-        return array(
-            'id' => 'id', 
-            'datetime' => 'datetime', 
-            'name' => 'name', 
-            'description' => 'description',
-            'handle' => 'handle',
-            'user_id' => 'user_id'
-        );
-    }
-
 }
