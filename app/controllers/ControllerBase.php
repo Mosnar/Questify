@@ -24,34 +24,13 @@ class ControllerBase extends Controller
         }
     }
 
+    /**
+     * Appends a specific description to the page title
+     * @param $title
+     * @return string full title
+     */
     public function setPageTitle($title) {
         $this->view->title = " - ".$title;
+        return $this->view->title;
     }
-
-
-    protected function checkCompanyLogin() {
-        if($this->auth->isCompanyUser()) {
-            $this->response->redirect("dashboard");
-            $this->view->disable();
-            return;
-        }
-    }
-
-    protected function checkFbUserLogin($comp_handle) {
-        if($this->auth->isFbUser()) {
-            $this->response->redirect("/c/".$comp_handle);
-            $this->view->disable();
-            return;
-        }
-    }
-
-    protected function checkNoFbUserLogin($comp_handle) {
-        if(!$this->auth->isFbUser()) {
-            $this->response->redirect("/login/".$comp_handle);
-            $this->view->disable();
-            return;
-        }
-    }
-
-
 }
